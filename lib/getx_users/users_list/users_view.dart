@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-
-import 'package:github_users/getx/users/users_controller.dart';
+import 'package:github_users/getx_users/users_list/users_controller.dart';
 import 'package:github_users/model/user.dart';
+
 
 class UsersView extends GetView<UsersController> {
   const UsersView({Key? key}) : super(key: key);
@@ -10,8 +10,6 @@ class UsersView extends GetView<UsersController> {
   @override
   Widget build(BuildContext context) {
     final users = controller.users;
-
-    controller.getUsers();
 
     return Scaffold(
       appBar: AppBar(
@@ -34,7 +32,7 @@ class UsersView extends GetView<UsersController> {
                         title: Text(user.login),
                         subtitle: Text(user.id.toString()),
                         onTap: () {
-                          //user details page
+                          Get.toNamed('details', arguments: user);
                         },
                       );
                     },

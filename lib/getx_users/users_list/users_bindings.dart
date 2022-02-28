@@ -1,5 +1,5 @@
 import 'package:get/instance_manager.dart';
-import 'package:github_users/getx/users/users_controller.dart';
+import 'package:github_users/getx_users/users_list/users_controller.dart';
 import 'package:github_users/repo/persist/users_persist.dart';
 import 'package:github_users/repo/service/users_service.dart';
 import 'package:github_users/repo/users_repo.dart';
