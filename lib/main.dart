@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:github_users/user_details_page.dart';
 import 'package:github_users/users_binding.dart';
 import 'package:github_users/users_page.dart';
 
@@ -15,7 +16,8 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       initialRoute: '/users',
       getPages: [
-        GetPage(name: '/users', page: () => UsersPage(key: key), binding: UsersBinding())
+        GetPage(name: '/users', page: () => UsersPage(key: key), binding: UsersBinding()),
+        GetPage(name: '/details', page: () => UserDetailsPage())
       ],
     );
   }
