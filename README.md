@@ -1,16 +1,12 @@
 # github_users
 
-A new Flutter project.
+Github Users - Flutter project.
 
-## Getting Started
+## Time Spent
+<img width="850" alt="Time Spent" src="https://user-images.githubusercontent.com/29410722/156187759-c15aed61-7f21-4d0e-861b-fc5c3909eeb4.png">
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Screens
+<div style="display:inline-block;">
+  <img width="350" alt="Users List" src="https://user-images.githubusercontent.com/29410722/156187927-34d375cf-ac56-4c2f-8bc1-522ee71ec982.png">
+  <img width="350" alt="User Details" src="https://user-images.githubusercontent.com/29410722/156187937-467a2082-cb05-4e10-985e-8400cccf0182.png">
+</div>
