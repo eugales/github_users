@@ -12,6 +12,6 @@ class UsersProvider extends GetConnect {
     });
   }
 
-  Future<Response<List<UserModel>>> getUsers() =>
-      get<List<UserModel>>('https://api.github.com/users');
+  Future<Response<List<UserModel>>> getUsers({int since = 0}) =>
+      get<List<UserModel>>('https://api.github.com/users?since=$since');
 }

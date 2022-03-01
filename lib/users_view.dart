@@ -6,9 +6,10 @@ class UsersView extends GetView<UsersController> {
   @override
   Widget build(BuildContext context) {
     return RefreshIndicator(
-      onRefresh: () async => controller.getUsers(),
+      onRefresh: () async => controller.getUsers(refresh: true),
       child: controller.obx(
         (state) => ListView.builder(
+          controller: controller.scrollController,
           itemCount: state?.length,
           itemBuilder: ((context, index) {
             return ListTile(
