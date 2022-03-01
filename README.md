@@ -2,6 +2,19 @@
 
 Github Users - Flutter project.
 
+# Framework used
+GetX
+
+# Features
+1) Test github users loading
+2) user details
+3) pagination
+4) pull-to-refresh
+5) no tests
+6) no persistance
+
+
+
 ## Time Spent
 <img width="850" alt="Time Spent" src="https://user-images.githubusercontent.com/29410722/156187759-c15aed61-7f21-4d0e-861b-fc5c3909eeb4.png">
 
